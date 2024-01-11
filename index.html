@@ -1,0 +1,501 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+  <title>Document</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <nav class="nav-bar">
+    <a class="nav-icon" href="https://www.shopify.com/">
+      <svg width="26" height="30" viewBox="0 0 26 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path
+          d="M17.5094 3.42124C17.5094 3.42124 17.1804 3.51558 16.6398 3.68066C16.5458 3.37407 16.4048 3.02032 16.2168 2.64298C15.6057 1.46379 14.6891 0.827035 13.608 0.827035C13.5375 0.827035 13.467 0.827035 13.373 0.850619C13.3495 0.803451 13.3025 0.779868 13.279 0.7327C12.8089 0.213859 12.1978 -0.0219779 11.4693 0.00160577C10.0591 0.0487732 8.64896 1.06287 7.52083 2.87882C6.72174 4.15234 6.11068 5.75603 5.94616 7.00596C4.32448 7.50122 3.19635 7.85498 3.17285 7.87856C2.35026 8.13798 2.32676 8.16156 2.23275 8.93983C2.16224 9.52942 0 26.1323 0 26.1323L17.768 29.2218V3.39766C17.6269 3.39766 17.5564 3.42124 17.5094 3.42124ZM13.3965 4.69476C12.4564 4.97776 11.4223 5.30794 10.4116 5.61452C10.6937 4.50609 11.2577 3.39766 11.9158 2.66656C12.1743 2.40714 12.5269 2.10055 12.9264 1.91188C13.326 2.7609 13.42 3.9165 13.3965 4.69476ZM11.4693 0.968537C11.7983 0.968537 12.0803 1.03929 12.3154 1.18079C11.9393 1.36946 11.5633 1.67605 11.2107 2.0298C10.3176 2.99673 9.63606 4.50609 9.35403 5.9447C8.50794 6.20412 7.66185 6.46354 6.88626 6.69937C7.40332 4.43534 9.30703 1.0157 11.4693 0.968537ZM8.74297 13.9396C8.83698 15.4489 12.8089 15.7791 13.0439 19.3402C13.2085 22.1467 11.5633 24.057 9.18952 24.1985C6.3222 24.3871 4.74752 22.6891 4.74752 22.6891L5.35859 20.0949C5.35859 20.0949 6.93327 21.2977 8.20241 21.2033C9.025 21.1562 9.33053 20.4722 9.30703 20.0006C9.18952 18.0195 5.94616 18.1375 5.73463 14.8829C5.54661 12.1472 7.33281 9.38791 11.2812 9.12849C12.8089 9.03416 13.5845 9.4115 13.5845 9.4115L12.6914 12.8075C12.6914 12.8075 11.6808 12.3359 10.4822 12.4302C8.74297 12.5481 8.71946 13.6566 8.74297 13.9396ZM14.3366 4.41176C14.3366 3.70425 14.2426 2.69015 13.9135 1.84113C14.9947 2.05339 15.5117 3.25616 15.7467 3.98725C15.3237 4.10517 14.8536 4.24667 14.3366 4.41176Z"
+          fill="white" />
+        <path
+          d="M18.3081 29.1747L25.6879 27.3352C25.6879 27.3352 22.5151 5.80326 22.4916 5.66176C22.4681 5.52025 22.3506 5.42592 22.233 5.42592C22.1155 5.42592 20.0473 5.37875 20.0473 5.37875C20.0473 5.37875 18.7782 4.1524 18.3081 3.68073V29.1747Z"
+          fill="white" />
+      </svg>
+      <svg width="76" height="25" viewBox="0 0 76 25" fill="none" xmlns="http://www.w3.org/2000/svg"
+        class="shopify-bag">
+        <path
+          d="M7.21663 11.6517C6.32353 11.1564 5.85348 10.7555 5.85348 10.1895C5.85348 9.4584 6.48805 9.01031 7.49866 9.01031C8.67379 9.01031 9.70791 9.50556 9.70791 9.50556L10.5305 6.98211C10.5305 6.98211 9.77841 6.39252 7.54567 6.39252C4.44333 6.39252 2.28108 8.18488 2.28108 10.6847C2.28108 12.0998 3.2917 13.1846 4.63134 13.9629C5.71246 14.5761 6.08851 15.0241 6.08851 15.6609C6.08851 16.3448 5.54795 16.8873 4.53734 16.8873C3.03317 16.8873 1.62302 16.109 1.62302 16.109L0.753418 18.6325C0.753418 18.6325 2.06956 19.505 4.25531 19.505C7.45166 19.505 9.73141 17.9249 9.73141 15.0949C9.77842 13.5384 8.60328 12.4535 7.21663 11.6517Z"
+          fill="white" />
+        <path
+          d="M19.9549 6.34533C18.3803 6.34533 17.1581 7.10001 16.1945 8.23203L16.1475 8.20844L17.5107 1.039H13.9383L10.4834 19.2692H14.0323L15.2074 13.0431C15.6775 10.6847 16.8761 9.24613 18.0042 9.24613C18.8033 9.24613 19.1088 9.78855 19.1088 10.5668C19.1088 11.0621 19.0618 11.6517 18.9443 12.1469L17.6047 19.2928H21.1536L22.5402 11.9347C22.7047 11.1564 22.7988 10.2366 22.7988 9.59988C22.8458 7.5481 21.8116 6.34533 19.9549 6.34533Z"
+          fill="white" />
+        <path
+          d="M30.884 6.34534C26.6065 6.34534 23.7627 10.2131 23.7627 14.5289C23.7627 17.2882 25.4549 19.5286 28.6512 19.5286C32.8582 19.5286 35.6785 15.7552 35.6785 11.3451C35.702 8.77446 34.2214 6.34534 30.884 6.34534ZM29.1448 16.7693C27.9227 16.7693 27.4291 15.7316 27.4291 14.4345C27.4291 12.3828 28.4867 9.05746 30.4139 9.05746C31.6831 9.05746 32.0826 10.1423 32.0826 11.2036C32.0826 13.4204 31.025 16.7693 29.1448 16.7693Z"
+          fill="white" />
+        <path
+          d="M44.7971 6.34534C42.3998 6.34534 41.0366 8.46787 41.0366 8.46787H40.9896L41.2012 6.55759H38.0518C37.8873 7.85469 37.6053 9.81214 37.3232 11.2979L34.8555 24.3161H38.4044L39.3915 19.0334H39.462C39.462 19.0334 40.1906 19.505 41.5537 19.505C45.7372 19.505 48.4635 15.2128 48.4635 10.8734C48.4635 8.49145 47.4059 6.34534 44.7971 6.34534ZM41.4127 16.8401C40.4961 16.8401 39.9555 16.3212 39.9555 16.3212L40.5431 12.9959C40.9661 10.7791 42.1178 9.2933 43.3399 9.2933C44.421 9.2933 44.7501 10.3074 44.7501 11.2507C44.7501 13.5384 43.3869 16.8401 41.4127 16.8401Z"
+          fill="white" />
+        <path
+          d="M53.5403 1.22766C52.4122 1.22766 51.4956 2.12384 51.4956 3.30303C51.4956 4.36429 52.1537 5.09539 53.1643 5.09539H53.2113C54.3159 5.09539 55.2795 4.34071 55.303 3.02002C55.3265 1.95876 54.6215 1.22766 53.5403 1.22766Z"
+          fill="white" />
+        <path d="M48.5576 19.2692H52.13L54.5508 6.62836H50.9549L48.5576 19.2692Z" fill="white" />
+        <path
+          d="M63.5759 6.60475H61.1081L61.2257 6.01516C61.4372 4.78881 62.1423 3.70396 63.3409 3.70396C63.9755 3.70396 64.469 3.89263 64.469 3.89263L65.1741 1.10975C65.1741 1.10975 64.563 0.803162 63.2469 0.803162C61.9777 0.803162 60.7321 1.15692 59.7685 1.98235C58.5464 3.02003 57.9823 4.5058 57.7003 6.01516L57.6062 6.60475H55.9611L55.444 9.29329H57.0892L55.209 19.2692H58.7579L60.6381 9.29329H63.0824L63.5759 6.60475Z"
+          fill="white" />
+        <path
+          d="M72.131 6.62836C72.131 6.62836 69.8982 12.2413 68.9111 15.3072H68.8641C68.7936 14.3166 67.9945 6.62836 67.9945 6.62836H64.2576L66.3963 18.2315C66.4433 18.491 66.4198 18.656 66.3258 18.8211C65.9028 19.623 65.2212 20.4012 64.3986 20.9672C63.7405 21.4625 62.9884 21.7691 62.4009 21.9813L63.388 25.0001C64.1166 24.835 65.5972 24.2454 66.8664 23.0662C68.4881 21.5332 69.9922 19.1985 71.5199 15.9911L75.8679 6.62836H72.131Z"
+          fill="white" />
+      </svg>
+    </a>
+    <input type="text" class="text-input" placeholder="Search">
+    <div class="profile-section">
+      <div class="icon" tabindex="4">
+        <svg class="bell-icon" viewBox="0 0 21 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path fill-rule="evenodd" clip-rule="evenodd"
+            d="M7.75203 14.4239L5.3061 14.1427C3.45144 13.9295 2.92542 11.4844 4.52838 10.5274L4.5933 10.4886C5.466 9.96761 6.00045 9.02609 6.00045 8.00969V7.5C6.00045 5.01472 8.01517 3 10.5005 3C12.9857 3 15.0005 5.01472 15.0005 7.5V8.00969C15.0005 9.02609 15.5349 9.96761 16.4076 10.4886L16.4725 10.5274C18.0755 11.4844 17.5495 13.9295 15.6948 14.1427L13.152 14.435V14.8C13.152 16.2912 11.9432 17.5 10.452 17.5C8.96086 17.5 7.75203 16.2912 7.75203 14.8V14.4239ZM11.652 14.5H9.25203V14.8C9.25203 15.4627 9.78929 16 10.452 16C11.1148 16 11.652 15.4627 11.652 14.8V14.5ZM8.50045 13H12.5005L15.5235 12.6525C15.953 12.6032 16.0748 12.0369 15.7036 11.8153L15.6387 11.7766C15.5591 11.7291 15.4815 11.6793 15.4057 11.6273C15.2506 11.521 15.1036 11.4055 14.9651 11.2818C14.9405 11.2598 14.9162 11.2377 14.8922 11.2152C14.0144 10.395 13.5005 9.23833 13.5005 8.00969V7.5C13.5005 5.84315 12.1573 4.5 10.5005 4.5C8.8436 4.5 7.50045 5.84315 7.50045 7.5V8.00969C7.50045 9.23833 6.98651 10.395 6.10871 11.2152C6.08469 11.2377 6.06039 11.2598 6.03583 11.2818C5.89734 11.4055 5.75029 11.521 5.59523 11.6273C5.51945 11.6793 5.44176 11.7291 5.36222 11.7766L5.29729 11.8153C4.9261 12.0369 5.0479 12.6032 5.47739 12.6525L8.50045 13Z"
+            fill="#fff" />
+        </svg>
+      </div>
+      <div class="profile">
+        <p class="username">Davii Collections</p>
+        <p class="profile-btn">DC</p>
+      </div>
+    </div>
+  </nav>
+  <div class="popup-container">
+    <div class="popup">
+      <div class="popup-header">
+        <p>Alerts</p>
+        <div class="popup-icons">
+          <svg width="14" height="10" viewBox="0 0 14 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path
+              d="M0 1C0 0.585786 0.335786 0.25 0.75 0.25H13.25C13.6642 0.25 14 0.585786 14 1C14 1.41421 13.6642 1.75 13.25 1.75H0.75C0.335786 1.75 0 1.41421 0 1Z"
+              fill="#616161" />
+            <path
+              d="M3.75 9C3.75 8.58579 4.08579 8.25 4.5 8.25H9.5C9.91421 8.25 10.25 8.58579 10.25 9C10.25 9.41421 9.91421 9.75 9.5 9.75H4.5C4.08579 9.75 3.75 9.41421 3.75 9Z"
+              fill="#616161" />
+            <path
+              d="M2.5 4.25C2.08579 4.25 1.75 4.58579 1.75 5C1.75 5.41421 2.08579 5.75 2.5 5.75H11.5C11.9142 5.75 12.25 5.41421 12.25 5C12.25 4.58579 11.9142 4.25 11.5 4.25H2.5Z"
+              fill="#616161" />
+          </svg>
+          <svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg" tabindex="2"
+            class="notification-icon">
+            <path
+              d="M10.2803 6.03033C10.5732 5.73744 10.5732 5.26256 10.2803 4.96967C9.98744 4.67678 9.51256 4.67678 9.21967 4.96967L6.25 7.93934L5.03033 6.71967C4.73744 6.42678 4.26256 6.42678 3.96967 6.71967C3.67678 7.01256 3.67678 7.48744 3.96967 7.78033L5.71967 9.53033C6.01256 9.82322 6.48744 9.82322 6.78033 9.53033L10.2803 6.03033Z"
+              fill="#616161" />
+            <path fill-rule="evenodd" clip-rule="evenodd"
+              d="M14 7C14 10.866 10.866 14 7 14C3.13401 14 0 10.866 0 7C0 3.13401 3.13401 0 7 0C10.866 0 14 3.13401 14 7ZM12.5 7C12.5 10.0376 10.0376 12.5 7 12.5C3.96243 12.5 1.5 10.0376 1.5 7C1.5 3.96243 3.96243 1.5 7 1.5C10.0376 1.5 12.5 3.96243 12.5 7Z"
+              fill="#616161" />
+          </svg>
+        </div>
+      </div>
+      <div class="popup-content">
+        <p>Alerts about your store and account will show here</p>
+      </div>
+    </div>
+  </div>
+  <div class="my-store-container">
+    <div class="my-store">
+      <div class="profile-name">
+        <div style="display: flex; align-items: center; justify-content: space-between; gap: 8px;">
+          <p class="profile-btn">DC</p>
+          <p>Davii Collections</p>
+        </div>
+        <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M13.3332 4L5.99984 11.3333L2.6665 8" stroke="#303030" stroke-width="1.33333" stroke-linecap="round"
+            stroke-linejoin="round">
+        </svg>
+      </div>
+      <a href='https://admin.shopify.com/' target="_blank" class="profile-option">
+        <svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path fill-rule="evenodd" clip-rule="evenodd"
+            d="M10.257 0H3.74302C3.35944 0 2.9971 0.17611 2.76012 0.477723L0.373943 3.51468C0.131688 3.823 0 4.20375 0 4.59586V5.25C0 6.31867 0.609581 7.24497 1.5 7.70015V12.25C1.5 13.2165 2.2835 14 3.25 14H10.75C11.7165 14 12.5 13.2165 12.5 12.25V7.70015C13.3904 7.24497 14 6.31867 14 5.25V4.76879C14 4.26465 13.8307 3.77511 13.5192 3.3787L11.2399 0.477723C11.0029 0.17611 10.6406 0 10.257 0ZM10 12.5H10.75C10.8881 12.5 11 12.3881 11 12.25V8C10.212 8 9.50138 7.66855 9 7.13747C8.49861 7.66855 7.78802 8 7 8C6.21199 8 5.50138 7.66856 5 7.13747C4.49862 7.66856 3.78801 8 3 8V12.25C3 12.3881 3.11193 12.5 3.25 12.5H7V10C7 9.44772 7.44772 9 8 9H9C9.55228 9 10 9.44771 10 10V12.5ZM3 6.5H2.75C2.05964 6.5 1.5 5.94036 1.5 5.25V4.59586C1.5 4.53985 1.51881 4.48545 1.55342 4.44141L3.86453 1.5H10.1355L12.3397 4.30543C12.4436 4.43757 12.5 4.60075 12.5 4.76879V5.25C12.5 5.94036 11.9404 6.5 11.25 6.5H11C10.3096 6.5 9.75 5.94036 9.75 5.25V4.75C9.75 4.33579 9.41421 4 9 4C8.58579 4 8.25 4.33579 8.25 4.75V5.25C8.25 5.94036 7.69036 6.5 7 6.5C6.30964 6.5 5.75 5.94036 5.75 5.25V4.75C5.75 4.33579 5.41421 4 5 4C4.58579 4 4.25 4.33579 4.25 4.75V5.25C4.25 5.94036 3.69036 6.5 3 6.5Z"
+            fill="#303030" />
+        </svg>
+        <p style="font-size: 13px; margin-left: 8px;">All stores</p>
+      </a>
+      <a href='https://admin.shopify.com/' target="_blank" class="profile-option">Help Center</a>
+      <a href='https://admin.shopify.com/' target="_blank" class="profile-option">Changelog</a>
+      <a href='https://admin.shopify.com/' target="_blank" class="profile-option">Community forums</a>
+      <a href='https://admin.shopify.com/' target="_blank" class="profile-option">Hire a Shopify Partner</a>
+      <a href='https://admin.shopify.com/' target="_blank" class="profile-option">Keyboard shortcuts</a>
+      <div style="height: 0.75px; background-color: #E1E1E1; width: 420px; margin-left: -60px;"></div>
+      <a href='https://admin.shopify.com/' target="_blank" class="profile-option"
+        style="display: flex; flex-direction: column;">
+        <p style="font-weight: 500; font-size: 13px; color: #303030;">David Micheal</p>
+        <p style="font-size: 12px; color: #616161;">davidmicheal@gmail.com</p>
+      </a>
+      <a href='https://admin.shopify.com/' target="_blank" class="profile-option">Manage account</a>
+      <a href='https://admin.shopify.com/' target="_blank" class="profile-option">Log out</a>
+    </div>
+  </div>
+  <main class="main">
+    <div class="plan">
+      <p style="font-size: 13px; font-weight: 500; color: #e3e3e3;">Extend your trial for $1/month for 3 months on
+        select plans.</p>
+      <div class="plan-btns">
+        <a href="https://www.shopify.com/pricing"><button class="select-plan-btn">Select a plan</button></a>
+        <svg id="delete-plan-btn" width="12" height="12" viewBox="0 0 12 12" fill="none"
+          xmlns="http://www.w3.org/2000/svg">
+          <path
+            d="M9.96967 11.0303C10.2626 11.3232 10.7374 11.3232 11.0303 11.0303C11.3232 10.7374 11.3232 10.2626 11.0303 9.96967L7.06066 6L11.0303 2.03033C11.3232 1.73744 11.3232 1.26256 11.0303 0.96967C10.7374 0.676777 10.2626 0.676777 9.96967 0.96967L6 4.93934L2.03033 0.96967C1.73744 0.676777 1.26256 0.676777 0.96967 0.96967C0.676777 1.26256 0.676777 1.73744 0.96967 2.03033L4.93934 6L0.96967 9.96967C0.676777 10.2626 0.676777 10.7374 0.96967 11.0303C1.26256 11.3232 1.73744 11.3232 2.03033 11.0303L6 7.06066L9.96967 11.0303Z"
+            fill="#E3E3E3" />
+        </svg>
+      </div>
+    </div>
+    <div class="accordion">
+      <div class="accordion-title">
+        <div>
+          <p style="font-size: 14px; font-weight: 600; color: #303030; margin-bottom: 6px;">Setup guide</p>
+          <p style="font-size: 13px; font-weight: 400px; color: #303030;">Use this personalized guide to get your store
+            up and running.</p>
+        </div>
+        <svg width="20" height="20" id="accordion-button" viewBox="0 0 10 6" fill="none"
+          xmlns="http://www.w3.org/2000/svg">
+          <path fill-rule="evenodd" clip-rule="evenodd"
+            d="M9.53033 5.28033C9.23744 5.57322 8.76256 5.57322 8.46967 5.28033L5 1.81066L1.53033 5.28033C1.23744 5.57322 0.762563 5.57322 0.46967 5.28033C0.176777 4.98744 0.176777 4.51256 0.46967 4.21967L4.46967 0.219669C4.76256 -0.0732237 5.23744 -0.0732237 5.53033 0.219669L9.53033 4.21967C9.82322 4.51256 9.82322 4.98744 9.53033 5.28033Z"
+            fill="#4A4A4A" />
+        </svg>
+      </div>
+      <div class="progress">
+        <label style="font-size: 12px; font-weight: 400;" for="progress" class="progress-label"><span
+            id="number"></span> / 5 completed</label>
+        <progress class="progress-bar" style="width: 72px; height: 10px;" value="0" max="5"></progress>
+      </div>
+      <div class="component-container">
+        <div id="accordion-component1" class="accordion-component margin">
+          <label class="svg-label">
+            <input class="svg-input1 svg-input" type='checkbox' />
+            <span>
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <circle cx="12" cy="12" r="10" stroke="#8A8A8A" stroke-width="2.08333" stroke-linecap="round"
+                  stroke-linejoin="round" stroke-dasharray="5 5" />
+              </svg>
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                <circle cx="12" cy="12" r="10" stroke="#8A8A8A" stroke-width="2.08333" stroke-linecap="round"
+                  stroke-linejoin="round" />
+              </svg>
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <circle cx="12" cy="12" r="10" fill="#D9D9D9" stroke="#8A8A8A" stroke-width="2.08333"
+                  stroke-linecap="round" stroke-linejoin="round" />
+              </svg>
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M22.0004 12C22.0004 13.9778 21.4139 15.9112 20.3151 17.5557C19.2162 19.2002 17.6545 20.4819 15.8272 21.2388C13.9999 21.9957 11.9893 22.1937 10.0495 21.8079C8.10965 21.422 6.32782 20.4696 4.9293 19.0711C3.53077 17.6725 2.57837 15.8907 2.19251 13.9509C1.80666 12.0111 2.00469 10.0004 2.76157 8.17317C3.51845 6.3459 4.80017 4.78412 6.44466 3.6853C8.08916 2.58649 10.0226 2 12.0004 2"
+                  stroke="#1C181D" stroke-width="2.08333" stroke-linecap="round" stroke-linejoin="round" />
+              </svg>
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M11.9996 2C13.9774 2 15.9108 2.58649 17.5553 3.6853C19.1998 4.78412 20.4816 6.3459 21.2384 8.17316C21.9953 10.0004 22.1933 12.0111 21.8075 13.9509C21.4216 15.8907 20.4692 17.6725 19.0707 19.0711C17.6722 20.4696 15.8903 21.422 13.9505 21.8079C12.0107 22.1937 10.0001 21.9957 8.1728 21.2388C6.34554 20.4819 4.78375 19.2002 3.68494 17.5557C2.58612 15.9112 1.99963 13.9778 1.99963 12"
+                  stroke="#1C181D" stroke-width="2.08333" stroke-linecap="round" stroke-linejoin="round" />
+              </svg>
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <ellipse opacity="0.6" cx="7.00008" cy="7.00004" rx="7.00008" ry="7.00004"
+                  transform="matrix(0.526082 -0.850434 0.850437 0.526077 2.36414 14.2701)" fill="#1C181D"
+                  stroke="#1C181D" stroke-width="1.45835" stroke-linecap="round" stroke-linejoin="round" />
+                <g opacity="0.6">
+                  <path fill-rule="evenodd" clip-rule="evenodd"
+                    d="M11.7757 7.89535C12.0109 7.83993 12.2465 7.98566 12.3019 8.22085L13.5318 13.4402C13.5872 13.6754 13.4415 13.9109 13.2063 13.9663L10.5966 14.5813C10.3614 14.6367 10.1258 14.491 10.0704 14.2558C10.015 14.0206 10.1607 13.785 10.3959 13.7296L12.5798 13.215L11.4502 8.42154C11.3948 8.18635 11.5406 7.95077 11.7757 7.89535Z"
+                    fill="white" />
+                </g>
+              </svg>
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <circle cx="11.9996" cy="12" r="10" fill="#1C181D" stroke="#1C181D" stroke-width="2.08333"
+                  stroke-linecap="round" stroke-linejoin="round" />
+                <path fill-rule="evenodd" clip-rule="evenodd"
+                  d="M16.8163 8.64149C17.0604 8.88557 17.0604 9.2813 16.8163 9.52538L11.3997 14.942C11.1556 15.1861 10.7599 15.1861 10.5158 14.942L7.80745 12.2337C7.56337 11.9896 7.56337 11.5939 7.80745 11.3498C8.05153 11.1057 8.44725 11.1057 8.69133 11.3498L10.9577 13.6162L15.9324 8.64149C16.1765 8.39742 16.5723 8.39742 16.8163 8.64149Z"
+                  fill="white" />
+              </svg>
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <circle cx="11.9996" cy="12" r="10" fill="#1C181D" stroke="#1C181D" stroke-width="2.08333"
+                  stroke-linecap="round" stroke-linejoin="round" />
+                <path fill-rule="evenodd" clip-rule="evenodd"
+                  d="M16.8162 8.64149C17.0603 8.88557 17.0603 9.2813 16.8162 9.52538L11.3995 14.942C11.1555 15.1861 10.7597 15.1861 10.5157 14.942L7.80733 12.2337C7.56325 11.9896 7.56325 11.5939 7.80733 11.3498C8.0514 11.1057 8.44713 11.1057 8.69121 11.3498L10.9576 13.6162L15.9323 8.64149C16.1764 8.39742 16.5721 8.39742 16.8162 8.64149Z"
+                  fill="white" />
+              </svg>
+            </span>
+          </label>
+          <div class="component-content">
+            <div id="text">
+              <p class="header" id="header1" style="cursor: pointer;">Customize your online store</p>
+              <div id="content-body1" class="content-body">
+                <p id="content-paragraph">Choose a theme and add your logo, colors, and images to reflect your brand. <a
+                    href="#" style="color: #005BD3;">Learn more</a></p>
+                <button id="component-btn" tabindex="4">Customise theme</button>
+              </div>
+            </div>
+            <img src="https://crushingit.tech/hackathon-assets/customise-store.png" alt="customise-store-img"
+              class="accordion-img-1">
+          </div>
+        </div>
+        <div id="accordion-component2" class="accordion-component shrink-content">
+          <label class="svg-label">
+            <input class="svg-input2 svg-input" type='checkbox' />
+            <span>
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <circle cx="12" cy="12" r="10" stroke="#8A8A8A" stroke-width="2.08333" stroke-linecap="round"
+                  stroke-linejoin="round" stroke-dasharray="5 5" />
+              </svg>
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                <circle cx="12" cy="12" r="10" stroke="#8A8A8A" stroke-width="2.08333" stroke-linecap="round"
+                  stroke-linejoin="round" />
+              </svg>
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <circle cx="12" cy="12" r="10" fill="#D9D9D9" stroke="#8A8A8A" stroke-width="2.08333"
+                  stroke-linecap="round" stroke-linejoin="round" />
+              </svg>
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M22.0004 12C22.0004 13.9778 21.4139 15.9112 20.3151 17.5557C19.2162 19.2002 17.6545 20.4819 15.8272 21.2388C13.9999 21.9957 11.9893 22.1937 10.0495 21.8079C8.10965 21.422 6.32782 20.4696 4.9293 19.0711C3.53077 17.6725 2.57837 15.8907 2.19251 13.9509C1.80666 12.0111 2.00469 10.0004 2.76157 8.17317C3.51845 6.3459 4.80017 4.78412 6.44466 3.6853C8.08916 2.58649 10.0226 2 12.0004 2"
+                  stroke="#1C181D" stroke-width="2.08333" stroke-linecap="round" stroke-linejoin="round" />
+              </svg>
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M11.9996 2C13.9774 2 15.9108 2.58649 17.5553 3.6853C19.1998 4.78412 20.4816 6.3459 21.2384 8.17316C21.9953 10.0004 22.1933 12.0111 21.8075 13.9509C21.4216 15.8907 20.4692 17.6725 19.0707 19.0711C17.6722 20.4696 15.8903 21.422 13.9505 21.8079C12.0107 22.1937 10.0001 21.9957 8.1728 21.2388C6.34554 20.4819 4.78375 19.2002 3.68494 17.5557C2.58612 15.9112 1.99963 13.9778 1.99963 12"
+                  stroke="#1C181D" stroke-width="2.08333" stroke-linecap="round" stroke-linejoin="round" />
+              </svg>
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <ellipse opacity="0.6" cx="7.00008" cy="7.00004" rx="7.00008" ry="7.00004"
+                  transform="matrix(0.526082 -0.850434 0.850437 0.526077 2.36414 14.2701)" fill="#1C181D"
+                  stroke="#1C181D" stroke-width="1.45835" stroke-linecap="round" stroke-linejoin="round" />
+                <g opacity="0.6">
+                  <path fill-rule="evenodd" clip-rule="evenodd"
+                    d="M11.7757 7.89535C12.0109 7.83993 12.2465 7.98566 12.3019 8.22085L13.5318 13.4402C13.5872 13.6754 13.4415 13.9109 13.2063 13.9663L10.5966 14.5813C10.3614 14.6367 10.1258 14.491 10.0704 14.2558C10.015 14.0206 10.1607 13.785 10.3959 13.7296L12.5798 13.215L11.4502 8.42154C11.3948 8.18635 11.5406 7.95077 11.7757 7.89535Z"
+                    fill="white" />
+                </g>
+              </svg>
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <circle cx="11.9996" cy="12" r="10" fill="#1C181D" stroke="#1C181D" stroke-width="2.08333"
+                  stroke-linecap="round" stroke-linejoin="round" />
+                <path fill-rule="evenodd" clip-rule="evenodd"
+                  d="M16.8163 8.64149C17.0604 8.88557 17.0604 9.2813 16.8163 9.52538L11.3997 14.942C11.1556 15.1861 10.7599 15.1861 10.5158 14.942L7.80745 12.2337C7.56337 11.9896 7.56337 11.5939 7.80745 11.3498C8.05153 11.1057 8.44725 11.1057 8.69133 11.3498L10.9577 13.6162L15.9324 8.64149C16.1765 8.39742 16.5723 8.39742 16.8163 8.64149Z"
+                  fill="white" />
+              </svg>
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <circle cx="11.9996" cy="12" r="10" fill="#1C181D" stroke="#1C181D" stroke-width="2.08333"
+                  stroke-linecap="round" stroke-linejoin="round" />
+                <path fill-rule="evenodd" clip-rule="evenodd"
+                  d="M16.8162 8.64149C17.0603 8.88557 17.0603 9.2813 16.8162 9.52538L11.3995 14.942C11.1555 15.1861 10.7597 15.1861 10.5157 14.942L7.80733 12.2337C7.56325 11.9896 7.56325 11.5939 7.80733 11.3498C8.0514 11.1057 8.44713 11.1057 8.69121 11.3498L10.9576 13.6162L15.9323 8.64149C16.1764 8.39742 16.5721 8.39742 16.8162 8.64149Z"
+                  fill="white" />
+              </svg>
+            </span>
+          </label>
+          <div class="component-content">
+            <div id="text">
+              <p class="header" id="header2" style="cursor: pointer;">Add your first product</p>
+              <div id="content-body2" class="content-body display-none">
+                <p id="content-paragraph">Write a description, add photos, and set pricing for the products you plan to
+                  sell <a href="#" style="color: #005BD3;">Learn more</a></p>
+                <button id="component-btn" tabindex="8">Add prodcut</button><span
+                  style="font-size: 12px; font-weight: 600; margin-left: 25px;">Import product</span>
+              </div>
+            </div>
+            <img src="https://crushingit.tech/hackathon-assets/product.png" alt="product"
+              class="accordion-img-2 display-none">
+          </div>
+        </div>
+        <div id="accordion-component3" class="accordion-component shrink-content">
+          <label class="svg-label">
+            <input class="svg-input3 svg-input" type='checkbox' />
+            <span>
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <circle cx="12" cy="12" r="10" stroke="#8A8A8A" stroke-width="2.08333" stroke-linecap="round"
+                  stroke-linejoin="round" stroke-dasharray="5 5" />
+              </svg>
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                <circle cx="12" cy="12" r="10" stroke="#8A8A8A" stroke-width="2.08333" stroke-linecap="round"
+                  stroke-linejoin="round" />
+              </svg>
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <circle cx="12" cy="12" r="10" fill="#D9D9D9" stroke="#8A8A8A" stroke-width="2.08333"
+                  stroke-linecap="round" stroke-linejoin="round" />
+              </svg>
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M22.0004 12C22.0004 13.9778 21.4139 15.9112 20.3151 17.5557C19.2162 19.2002 17.6545 20.4819 15.8272 21.2388C13.9999 21.9957 11.9893 22.1937 10.0495 21.8079C8.10965 21.422 6.32782 20.4696 4.9293 19.0711C3.53077 17.6725 2.57837 15.8907 2.19251 13.9509C1.80666 12.0111 2.00469 10.0004 2.76157 8.17317C3.51845 6.3459 4.80017 4.78412 6.44466 3.6853C8.08916 2.58649 10.0226 2 12.0004 2"
+                  stroke="#1C181D" stroke-width="2.08333" stroke-linecap="round" stroke-linejoin="round" />
+              </svg>
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M11.9996 2C13.9774 2 15.9108 2.58649 17.5553 3.6853C19.1998 4.78412 20.4816 6.3459 21.2384 8.17316C21.9953 10.0004 22.1933 12.0111 21.8075 13.9509C21.4216 15.8907 20.4692 17.6725 19.0707 19.0711C17.6722 20.4696 15.8903 21.422 13.9505 21.8079C12.0107 22.1937 10.0001 21.9957 8.1728 21.2388C6.34554 20.4819 4.78375 19.2002 3.68494 17.5557C2.58612 15.9112 1.99963 13.9778 1.99963 12"
+                  stroke="#1C181D" stroke-width="2.08333" stroke-linecap="round" stroke-linejoin="round" />
+              </svg>
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <ellipse opacity="0.6" cx="7.00008" cy="7.00004" rx="7.00008" ry="7.00004"
+                  transform="matrix(0.526082 -0.850434 0.850437 0.526077 2.36414 14.2701)" fill="#1C181D"
+                  stroke="#1C181D" stroke-width="1.45835" stroke-linecap="round" stroke-linejoin="round" />
+                <g opacity="0.6">
+                  <path fill-rule="evenodd" clip-rule="evenodd"
+                    d="M11.7757 7.89535C12.0109 7.83993 12.2465 7.98566 12.3019 8.22085L13.5318 13.4402C13.5872 13.6754 13.4415 13.9109 13.2063 13.9663L10.5966 14.5813C10.3614 14.6367 10.1258 14.491 10.0704 14.2558C10.015 14.0206 10.1607 13.785 10.3959 13.7296L12.5798 13.215L11.4502 8.42154C11.3948 8.18635 11.5406 7.95077 11.7757 7.89535Z"
+                    fill="white" />
+                </g>
+              </svg>
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <circle cx="11.9996" cy="12" r="10" fill="#1C181D" stroke="#1C181D" stroke-width="2.08333"
+                  stroke-linecap="round" stroke-linejoin="round" />
+                <path fill-rule="evenodd" clip-rule="evenodd"
+                  d="M16.8163 8.64149C17.0604 8.88557 17.0604 9.2813 16.8163 9.52538L11.3997 14.942C11.1556 15.1861 10.7599 15.1861 10.5158 14.942L7.80745 12.2337C7.56337 11.9896 7.56337 11.5939 7.80745 11.3498C8.05153 11.1057 8.44725 11.1057 8.69133 11.3498L10.9577 13.6162L15.9324 8.64149C16.1765 8.39742 16.5723 8.39742 16.8163 8.64149Z"
+                  fill="white" />
+              </svg>
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <circle cx="11.9996" cy="12" r="10" fill="#1C181D" stroke="#1C181D" stroke-width="2.08333"
+                  stroke-linecap="round" stroke-linejoin="round" />
+                <path fill-rule="evenodd" clip-rule="evenodd"
+                  d="M16.8162 8.64149C17.0603 8.88557 17.0603 9.2813 16.8162 9.52538L11.3995 14.942C11.1555 15.1861 10.7597 15.1861 10.5157 14.942L7.80733 12.2337C7.56325 11.9896 7.56325 11.5939 7.80733 11.3498C8.0514 11.1057 8.44713 11.1057 8.69121 11.3498L10.9576 13.6162L15.9323 8.64149C16.1764 8.39742 16.5721 8.39742 16.8162 8.64149Z"
+                  fill="white" />
+              </svg>
+            </span>
+          </label>
+          <div class="component-content">
+            <div id="text">
+              <p class="header" id="header3" style="cursor: pointer;">Add a custom domain</p>
+              <div id="content-body3" class="content-body display-none">
+                <p id="content-paragraph">Your current domain is 222219.myshopify.com but you can add a custom domain to
+                  help customers find your online store.<a href="#" style="color: #005BD3;">Learn more</a></p>
+                <button id="component-btn" tabindex="7">Add domain</button>
+              </div>
+            </div>
+            <img src="https://crushingit.tech/hackathon-assets/website.png" alt="website"
+              class="accordion-img-3 display-none">
+          </div>
+        </div>
+        <div id="accordion-component4" class="accordion-component shrink-content">
+          <label class="svg-label">
+            <input class="svg-input4 svg-input" type='checkbox' />
+            <span>
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <circle cx="12" cy="12" r="10" stroke="#8A8A8A" stroke-width="2.08333" stroke-linecap="round"
+                  stroke-linejoin="round" stroke-dasharray="5 5" />
+              </svg>
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                <circle cx="12" cy="12" r="10" stroke="#8A8A8A" stroke-width="2.08333" stroke-linecap="round"
+                  stroke-linejoin="round" />
+              </svg>
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <circle cx="12" cy="12" r="10" fill="#D9D9D9" stroke="#8A8A8A" stroke-width="2.08333"
+                  stroke-linecap="round" stroke-linejoin="round" />
+              </svg>
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M22.0004 12C22.0004 13.9778 21.4139 15.9112 20.3151 17.5557C19.2162 19.2002 17.6545 20.4819 15.8272 21.2388C13.9999 21.9957 11.9893 22.1937 10.0495 21.8079C8.10965 21.422 6.32782 20.4696 4.9293 19.0711C3.53077 17.6725 2.57837 15.8907 2.19251 13.9509C1.80666 12.0111 2.00469 10.0004 2.76157 8.17317C3.51845 6.3459 4.80017 4.78412 6.44466 3.6853C8.08916 2.58649 10.0226 2 12.0004 2"
+                  stroke="#1C181D" stroke-width="2.08333" stroke-linecap="round" stroke-linejoin="round" />
+              </svg>
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M11.9996 2C13.9774 2 15.9108 2.58649 17.5553 3.6853C19.1998 4.78412 20.4816 6.3459 21.2384 8.17316C21.9953 10.0004 22.1933 12.0111 21.8075 13.9509C21.4216 15.8907 20.4692 17.6725 19.0707 19.0711C17.6722 20.4696 15.8903 21.422 13.9505 21.8079C12.0107 22.1937 10.0001 21.9957 8.1728 21.2388C6.34554 20.4819 4.78375 19.2002 3.68494 17.5557C2.58612 15.9112 1.99963 13.9778 1.99963 12"
+                  stroke="#1C181D" stroke-width="2.08333" stroke-linecap="round" stroke-linejoin="round" />
+              </svg>
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <ellipse opacity="0.6" cx="7.00008" cy="7.00004" rx="7.00008" ry="7.00004"
+                  transform="matrix(0.526082 -0.850434 0.850437 0.526077 2.36414 14.2701)" fill="#1C181D"
+                  stroke="#1C181D" stroke-width="1.45835" stroke-linecap="round" stroke-linejoin="round" />
+                <g opacity="0.6">
+                  <path fill-rule="evenodd" clip-rule="evenodd"
+                    d="M11.7757 7.89535C12.0109 7.83993 12.2465 7.98566 12.3019 8.22085L13.5318 13.4402C13.5872 13.6754 13.4415 13.9109 13.2063 13.9663L10.5966 14.5813C10.3614 14.6367 10.1258 14.491 10.0704 14.2558C10.015 14.0206 10.1607 13.785 10.3959 13.7296L12.5798 13.215L11.4502 8.42154C11.3948 8.18635 11.5406 7.95077 11.7757 7.89535Z"
+                    fill="white" />
+                </g>
+              </svg>
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <circle cx="11.9996" cy="12" r="10" fill="#1C181D" stroke="#1C181D" stroke-width="2.08333"
+                  stroke-linecap="round" stroke-linejoin="round" />
+                <path fill-rule="evenodd" clip-rule="evenodd"
+                  d="M16.8163 8.64149C17.0604 8.88557 17.0604 9.2813 16.8163 9.52538L11.3997 14.942C11.1556 15.1861 10.7599 15.1861 10.5158 14.942L7.80745 12.2337C7.56337 11.9896 7.56337 11.5939 7.80745 11.3498C8.05153 11.1057 8.44725 11.1057 8.69133 11.3498L10.9577 13.6162L15.9324 8.64149C16.1765 8.39742 16.5723 8.39742 16.8163 8.64149Z"
+                  fill="white" />
+              </svg>
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <circle cx="11.9996" cy="12" r="10" fill="#1C181D" stroke="#1C181D" stroke-width="2.08333"
+                  stroke-linecap="round" stroke-linejoin="round" />
+                <path fill-rule="evenodd" clip-rule="evenodd"
+                  d="M16.8162 8.64149C17.0603 8.88557 17.0603 9.2813 16.8162 9.52538L11.3995 14.942C11.1555 15.1861 10.7597 15.1861 10.5157 14.942L7.80733 12.2337C7.56325 11.9896 7.56325 11.5939 7.80733 11.3498C8.0514 11.1057 8.44713 11.1057 8.69121 11.3498L10.9576 13.6162L15.9323 8.64149C16.1764 8.39742 16.5721 8.39742 16.8162 8.64149Z"
+                  fill="white" />
+              </svg>
+            </span>
+          </label>
+          <div class="component-content">
+            <div id="text">
+              <p class="header" id="header4" style="cursor: pointer;">Name your store</p>
+              <div id="content-body4" class="content-body display-none">
+                <p id="content-paragraph">Your temporary store name is currently Davii collections. The store name
+                  appears in your admin and your online store.<a href="#" style="color: #005BD3;">Learn more</a></p>
+                <button id="component-btn" tabindex="6">Name Store</button>
+              </div>
+            </div>
+            <img src="https://crushingit.tech/hackathon-assets/name-store.png" alt="name-store"
+              class="accordion-img-4 display-none">
+          </div>
+        </div>
+        <div id="accordion-component5" class="accordion-component shrink-content">
+          <label class="svg-label">
+            <input class="svg-input5 svg-input" type='checkbox' />
+            <span>
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <circle cx="12" cy="12" r="10" stroke="#8A8A8A" stroke-width="2.08333" stroke-linecap="round"
+                  stroke-linejoin="round" stroke-dasharray="5 5" />
+              </svg>
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                <circle cx="12" cy="12" r="10" stroke="#8A8A8A" stroke-width="2.08333" stroke-linecap="round"
+                  stroke-linejoin="round" />
+              </svg>
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <circle cx="12" cy="12" r="10" fill="#D9D9D9" stroke="#8A8A8A" stroke-width="2.08333"
+                  stroke-linecap="round" stroke-linejoin="round" />
+              </svg>
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M22.0004 12C22.0004 13.9778 21.4139 15.9112 20.3151 17.5557C19.2162 19.2002 17.6545 20.4819 15.8272 21.2388C13.9999 21.9957 11.9893 22.1937 10.0495 21.8079C8.10965 21.422 6.32782 20.4696 4.9293 19.0711C3.53077 17.6725 2.57837 15.8907 2.19251 13.9509C1.80666 12.0111 2.00469 10.0004 2.76157 8.17317C3.51845 6.3459 4.80017 4.78412 6.44466 3.6853C8.08916 2.58649 10.0226 2 12.0004 2"
+                  stroke="#1C181D" stroke-width="2.08333" stroke-linecap="round" stroke-linejoin="round" />
+              </svg>
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M11.9996 2C13.9774 2 15.9108 2.58649 17.5553 3.6853C19.1998 4.78412 20.4816 6.3459 21.2384 8.17316C21.9953 10.0004 22.1933 12.0111 21.8075 13.9509C21.4216 15.8907 20.4692 17.6725 19.0707 19.0711C17.6722 20.4696 15.8903 21.422 13.9505 21.8079C12.0107 22.1937 10.0001 21.9957 8.1728 21.2388C6.34554 20.4819 4.78375 19.2002 3.68494 17.5557C2.58612 15.9112 1.99963 13.9778 1.99963 12"
+                  stroke="#1C181D" stroke-width="2.08333" stroke-linecap="round" stroke-linejoin="round" />
+              </svg>
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <ellipse opacity="0.6" cx="7.00008" cy="7.00004" rx="7.00008" ry="7.00004"
+                  transform="matrix(0.526082 -0.850434 0.850437 0.526077 2.36414 14.2701)" fill="#1C181D"
+                  stroke="#1C181D" stroke-width="1.45835" stroke-linecap="round" stroke-linejoin="round" />
+                <g opacity="0.6">
+                  <path fill-rule="evenodd" clip-rule="evenodd"
+                    d="M11.7757 7.89535C12.0109 7.83993 12.2465 7.98566 12.3019 8.22085L13.5318 13.4402C13.5872 13.6754 13.4415 13.9109 13.2063 13.9663L10.5966 14.5813C10.3614 14.6367 10.1258 14.491 10.0704 14.2558C10.015 14.0206 10.1607 13.785 10.3959 13.7296L12.5798 13.215L11.4502 8.42154C11.3948 8.18635 11.5406 7.95077 11.7757 7.89535Z"
+                    fill="white" />
+                </g>
+              </svg>
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <circle cx="11.9996" cy="12" r="10" fill="#1C181D" stroke="#1C181D" stroke-width="2.08333"
+                  stroke-linecap="round" stroke-linejoin="round" />
+                <path fill-rule="evenodd" clip-rule="evenodd"
+                  d="M16.8163 8.64149C17.0604 8.88557 17.0604 9.2813 16.8163 9.52538L11.3997 14.942C11.1556 15.1861 10.7599 15.1861 10.5158 14.942L7.80745 12.2337C7.56337 11.9896 7.56337 11.5939 7.80745 11.3498C8.05153 11.1057 8.44725 11.1057 8.69133 11.3498L10.9577 13.6162L15.9324 8.64149C16.1765 8.39742 16.5723 8.39742 16.8163 8.64149Z"
+                  fill="white" />
+              </svg>
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <circle cx="11.9996" cy="12" r="10" fill="#1C181D" stroke="#1C181D" stroke-width="2.08333"
+                  stroke-linecap="round" stroke-linejoin="round" />
+                <path fill-rule="evenodd" clip-rule="evenodd"
+                  d="M16.8162 8.64149C17.0603 8.88557 17.0603 9.2813 16.8162 9.52538L11.3995 14.942C11.1555 15.1861 10.7597 15.1861 10.5157 14.942L7.80733 12.2337C7.56325 11.9896 7.56325 11.5939 7.80733 11.3498C8.0514 11.1057 8.44713 11.1057 8.69121 11.3498L10.9576 13.6162L15.9323 8.64149C16.1764 8.39742 16.5721 8.39742 16.8162 8.64149Z"
+                  fill="white" />
+              </svg>
+            </span>
+          </label>
+          <div class="component-content">
+            <div id="text">
+              <p class="header" id="header5" style="cursor: pointer;">Set up a payment provider</p>
+              <div id="content-body5" class="content-body display-none">
+                <p id="content-paragraph">Choose a payment provider to start accepting payments. You’ll need to create
+                  an account with the payment provider and set it up with your Shopify store.<a href="#"
+                    style="color: #005BD3;">Learn more</a></p>
+                <button id="component-btn" tabindex="5">Set up Payment</button>
+              </div>
+            </div>
+            <img src="https://crushingit.tech/hackathon-assets/payment.png" alt="payment"
+              class="accordion-img-5 display-none">
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <script src="app.js"></script>
+</body>
+
+</html>
